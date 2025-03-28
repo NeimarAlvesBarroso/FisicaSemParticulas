@@ -1,0 +1,34 @@
+baseURL = "http://localhost:1313/"
+languageCode = "pt-br"
+title = "Instituto Física Sem Partículas"
+theme = "ananke" # Ou outro tema escolhido
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Instituto Física Sem Partículas"
+  description = "Explorando novas perspectivas na física sem partículas."
+  custom_css = ["css/custom.css"] # Para estilos personalizados (opcional)
+[menu]
+
+  [[menu.main]]
+    name = "Sobre"
+    url = "/sobre/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Pesquisas"
+    url = "/pesquisas/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Publicações"
+    url = "/publicacoes/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Contato"
+    url = "/contato/"
+    weight = 4
+
+

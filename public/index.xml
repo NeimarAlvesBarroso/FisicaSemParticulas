@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Física Sem Partículas on Instituto Física Sem Partículas</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Física Sem Partículas on Instituto Física Sem Partículas</description>
+    <generator>Hugo</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Um Modelo Quântico Alternativo</title>
+      <link>http://localhost:1313/pesquisa/modelo-qu%C3%A2ntico-alternativo/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/pesquisa/modelo-qu%C3%A2ntico-alternativo/</guid>
+      <description>&lt;p&gt;Neste artigo, exploramos uma abordagem alternativa à mecânica quântica tradicional, levando em conta novos princípios matemáticos e experimentais.&lt;/p&gt;&#xA;&lt;p&gt;(&amp;hellip;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

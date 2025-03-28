@@ -1,0 +1,31 @@
+baseURL = 'http://localhost:1313/'  
+languageCode = 'pt-br'
+title = 'Instituto Física Sem Partículas'
+theme = 'ananke'
+
+[params]
+  description = "Explorando novos horizontes na física sem partículas."
+  author = "Equipe FSP"
+
+[menu]
+  [[menu.main]]
+    identifier = "sobre"
+    name = "Sobre"
+    url = "/sobre/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "publicacoes"
+    name = "Publicações"
+    url = "/publicacoes/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contato"
+    name = "Contato"
+    url = "/contato/"
+    weight = 3
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
