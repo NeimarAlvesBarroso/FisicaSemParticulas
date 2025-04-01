@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Artigos</title>
+      <link>http://localhost:1313/tags/artigos/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/artigos/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Física Quântica</title>
       <link>http://localhost:1313/tags/f%C3%ADsica-qu%C3%A2ntica/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
@@ -20,6 +27,13 @@
       <link>http://localhost:1313/tags/novas-teorias/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/novas-teorias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Revistas</title>
+      <link>http://localhost:1313/tags/revistas/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/revistas/</guid>
       <description></description>
     </item>
   </channel>

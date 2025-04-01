@@ -1,3 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "fisica-sem-particulas/fisica-sem-particulas/fisica-sem-particulas/themes/ananke"]
+	path = fisica-sem-particulas/fisica-sem-particulas/fisica-sem-particulas/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke
