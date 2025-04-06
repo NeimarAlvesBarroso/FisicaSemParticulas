@@ -12,8 +12,8 @@ theme = "ananke" # Ou outro tema escolhido
 [menu]
 
   [[menu.main]]
-    name = "Sobre"
-    url = "/sobre/"
+    name = "Estado da Arte"
+    url = "/estadodaarte/"
     weight = 1
 
   [[menu.main]]

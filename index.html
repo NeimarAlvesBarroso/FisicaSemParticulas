@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Instituto Física Sem Partículas</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-950 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gradient-to-r from-blue-900 to-indigo-800 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-widest">Física Sem Partículas</h1>
+      <ul class="hidden md:flex space-x-6 text-lg">
+        <li><a href="#" class="hover:text-cyan-400 transition">Início</a></li>
+        <li><a href="#" class="hover:text-cyan-400 transition">Teoria</a></li>
+        <li><a href="#" class="hover:text-cyan-400 transition">Projetos</a></li>
+        <li><a href="#" class="hover:text-cyan-400 transition">Publicações</a></li>
+        <li><a href="#" class="hover:text-cyan-400 transition">Contato</a></li>
+      </ul>
+
+      <!-- Botão do menu mobile -->
+      <div class="md:hidden">
+        <button id="menuBtn" class="text-cyan-400 focus:outline-none">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div id="mobileMenu" class="hidden flex-col items-center md:hidden bg-indigo-900 text-white space-y-4 py-4">
+      <a href="#" class="hover:text-cyan-300">Início</a>
+      <a href="#" class="hover:text-cyan-300">Teoria</a>
+      <a href="#" class="hover:text-cyan-300">Projetos</a>
+      <a href="#" class="hover:text-cyan-300">Publicações</a>
+      <a href="#" class="hover:text-cyan-300">Contato</a>
+    </div>
+  </nav>
+
+  <!-- Conteúdo -->
+  <section class="p-8">
+    <h2 class="text-3xl font-semibold text-cyan-400 mb-4">Bem-vindo ao Instituto</h2>
+    <p class="text-lg text-gray-300">Explore a Vetorialética e seus fundamentos inovadores para compreender o universo sem partículas.</p>
+  </section>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>

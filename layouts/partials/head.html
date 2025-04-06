@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  {{ if .IsHome }}
+  <meta name="description" content="{{ .Site.Params.description }}">
+  {{ end }}
+
+  {{ partialCached "favicon.html" . }}
+</head>
