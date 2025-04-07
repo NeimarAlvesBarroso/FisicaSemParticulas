@@ -1,0 +1,21 @@
+# Build Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Node
+node_modules/
+output.css
+
+# Outros arquivos desnecessários
+*.log
+*.tmp
+*.py
+*.csv
+*.xlsx
+*.gif
+*.jpg
+*.exe
+tmp/
+vetorialetica_env/
+tensorflow_env/
