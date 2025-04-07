@@ -1,8 +1,13 @@
 baseURL = "https://neimaralvesbarroso.github.io/FisicaSemParticulas/"
 languageCode = "pt-br"
-title = "Física Sem Partículas"
+title = "Instituto Física Sem Partículas"
 theme = "ananke"
-paginate = 10
-ignoreLogs = ['warning-goldmark-raw-html']
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Física Sem Partículas com base na Vetorialética"
+
 
 
