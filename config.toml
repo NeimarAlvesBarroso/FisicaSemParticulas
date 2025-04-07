@@ -2,4 +2,7 @@ baseURL = "https://neimaralvesbarroso.github.io/FisicaSemParticulas/"
 languageCode = "pt-br"
 title = "Física Sem Partículas"
 theme = "ananke"
+paginate = 10
+ignoreLogs = ['warning-goldmark-raw-html']
+
 
