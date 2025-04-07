@@ -1,21 +1,12 @@
-# Build Hugo
+# Ignorar diretórios gerados automaticamente
 public/
 resources/_gen/
+output.css
 .hugo_build.lock
 
-# Node
+# Ignorar dependências locais
 node_modules/
-output.css
 
-# Outros arquivos desnecessários
+# Ignorar arquivos temporários
 *.log
-*.tmp
-*.py
-*.csv
-*.xlsx
-*.gif
-*.jpg
-*.exe
-tmp/
-vetorialetica_env/
-tensorflow_env/
+.DS_Store
