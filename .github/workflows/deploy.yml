@@ -1,27 +1,33 @@
-name: Deploy Hugo site
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Sempre que houver um push na branch principal, ele roda
+      - main  # ou 'master', dependendo do seu branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar código do repositório
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Instalar Hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true
 
-      - name: Construir o site
+      - name: Build site
         run: hugo --minify
 
-      - name: Publicar no GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
