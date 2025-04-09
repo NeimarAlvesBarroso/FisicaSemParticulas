@@ -1,7 +1,17 @@
 {
-  "build": {
-    "env": {
-      "HUGO_VERSION": "0.121.1"
+  "builds": [
+    {
+      "src": "config.toml",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "public"
+      }
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
 }

@@ -37,3 +37,8 @@
   },
   "description": ""
 }
+{
+  "scripts": {
+    "build": "hugo"
+  }
+}

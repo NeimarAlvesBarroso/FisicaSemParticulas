@@ -2,6 +2,16 @@ baseURL = "https://neimaralvesbarroso.github.io/FisicaSemParticulas/"
 languageCode = "pt-br"
 title = "Instituto Física Sem Partículas"
 theme = "hermit-v2"
+enableEmoji = true
+defaultContentLanguage = "pt"
+paginate = 10
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+  homeSubtitle = "Vetorialética | Física Sem Partículas"
+  footerCopyright = "© 2025 Neimar Alves Barroso"
+  bgImg = "img/background.jpg"
 
 [pagination]
   pagerSize = 10
