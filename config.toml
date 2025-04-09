@@ -1,7 +1,7 @@
 baseURL = "https://neimaralvesbarroso.github.io/FisicaSemParticulas/"
 languageCode = "pt-br"
 title = "Instituto Física Sem Partículas"
-theme = "ananke"
+theme = "hermit-v2"
 
 [pagination]
   pagerSize = 10
