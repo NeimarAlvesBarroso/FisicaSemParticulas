@@ -12,12 +12,11 @@ googleAnalytics = ""
   homeSubtitle = "Vetorialética | Física Sem Partículas"
   footerCopyright = "© 2025 Neimar Alves Barroso"
   bgImg = "img/background.jpg"
+  description = "Física Sem Partículas com base na Vetorialética"
 
 [pagination]
   pagerSize = 10
 
-[params]
-  description = "Física Sem Partículas com base na Vetorialética"
 
 
 
