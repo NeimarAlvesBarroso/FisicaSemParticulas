@@ -1,22 +1,42 @@
-baseURL = "https://neimaralvesbarroso.github.io/FisicaSemParticulas/"
+baseURL = "http://example.org/"
 languageCode = "pt-br"
 title = "Instituto Física Sem Partículas"
-theme = "hermit-v2"
-enableEmoji = true
-defaultContentLanguage = "pt"
-paginate = 10
-disqusShortname = ""
-googleAnalytics = ""
+theme = "PaperMod"
 
 [params]
-  homeSubtitle = "Vetorialética | Física Sem Partículas"
-  footerCopyright = "© 2025 Neimar Alves Barroso"
-  bgImg = "img/background.jpg"
-  description = "Física Sem Partículas com base na Vetorialética"
+  author = "Seu Nome"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  disableScrollToTop = false
+  comments = false
 
-[pagination]
-  pagerSize = 10
+[menu]
+  [[menu.main]]
+    identifier = "manifesto"
+    name = "Manifesto"
+    url = "/manifesto/"
+    weight = 10
 
+  [[menu.main]]
+    identifier = "teoria"
+    name = "Teoria"
+    url = "/teoria/"
+    weight = 20
 
+  [[menu.main]]
+    identifier = "projetos"
+    name = "Projetos"
+    url = "/projetos/"
+    weight = 30
 
+  [[menu.main]]
+    identifier = "contato"
+    name = "Contato"
+    url = "/contato/"
+    weight = 40
 

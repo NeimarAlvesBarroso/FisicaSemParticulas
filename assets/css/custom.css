@@ -1,0 +1,18 @@
+/* Customizações visuais */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfcfb;
+}
+
+.navbar {
+  background-color: #0d0d0d;
+}
+
+h1, h2, h3 {
+  color: #1e90ff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #e63946;
+}

@@ -1,16 +1,11 @@
 ﻿---
-title: "Estado da Arte"
-description: "Explorando novas fronteiras da física teórica."
-date: 2025-03-10
+title: "Sobre"
+date: 2025-03-24
+draft: false
 ---
 
+A **Física Sem Partículas** é uma nova abordagem científica que rompe com o modelo tradicional baseado em partículas.
 
-O Instituto Física Sem Partículas nasce como uma ruptura com os modelos tradicionais da física teórica. Nossa missão é desenvolver e divulgar conceitos que substituam a dependência da ideia de "partículas" como base da realidade, explorando novos paradigmas que ofereçam uma visão mais unificada e coerente do universo.
+Fundamentada na **Vetorialética** e no **Modelo Nuvem**, esta teoria propõe uma nova leitura da realidade física, na qual os campos contínuos, as interações vetoriais e as estruturas ressonantes substituem os paradigmas quânticos clássicos.
 
-4. Missão e Impacto
-O Instituto Física Sem Partículas busca:
-✅ Desenvolver e formalizar modelos matemáticos baseados no Modelo Nuvem e na Vetorialética.
-✅ Publicar e divulgar pesquisas para comunidades acadêmicas e científicas.
-✅ Criar novas tecnologias baseadas nos princípios descobertos.
-✅ Promover uma revolução no pensamento científico, afastando-se da ideia reducionista de partículas e abraçando uma visão holística e dinâmica da realidade.
-
+Nosso objetivo é desenvolver, divulgar e aplicar esse conhecimento em várias áreas do saber, promovendo um salto paradigmático na ciência contemporânea.

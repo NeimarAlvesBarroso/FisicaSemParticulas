@@ -1,10 +1,5 @@
-+++
-title = "Física Sem Partículas"
-description = "Bem-vindo ao Instituto Física Sem Partículas"
-date = 2025-03-10
-+++
+---
+title: "Bem-vindo ao Instituto Física Sem Partículas"
+---
 
-Este é um site em desenvolvimento. Fique ligado para mais novidades!
-
-
-
+Física Sem Partículas é uma nova abordagem da realidade baseada na Vetorialética.

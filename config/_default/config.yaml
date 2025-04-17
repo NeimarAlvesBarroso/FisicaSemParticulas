@@ -1,0 +1,38 @@
+baseURL: "https://neimaralvesbarroso.github.io/FisicaSemParticulas/"
+languageCode: "pt-br"
+title: "Instituto Física Sem Partículas"
+defaultContentLanguage: "pt"
+
+params:
+  homeSubtitle: "Vetorialética | Física Sem Partículas"
+  footerCopyright: "© 2025 Neimar Alves Barroso"
+  bgImg: "img/background.jpg"
+  description: "Física Sem Partículas com base na Vetorialética"
+  dateform: "02 Jan 2006"
+  dateformShort: "02 Jan"
+  dateformNumTime: "02 Jan 2006"
+  customCSS:
+    - "css/custom.css"
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - identifier: "sobre"
+      name: "Sobre"
+      url: "/sobre/"
+      weight: 1
+    - identifier: "publicacoes"
+      name: "Publicações"
+      url: "/publicacoes/"
+      weight: 2
+    - identifier: "contato"
+      name: "Contato"
+      url: "/contato/"
+      weight: 3

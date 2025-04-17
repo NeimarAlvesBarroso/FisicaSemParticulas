@@ -4,3 +4,6 @@
 [submodule "fisica-sem-particulas/fisica-sem-particulas/fisica-sem-particulas/themes/ananke"]
 	path = fisica-sem-particulas/fisica-sem-particulas/fisica-sem-particulas/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke
+[submodule "themes/hugo-academic"]
+	path = themes/hugo-academic
+	url = https://github.com/wowchemy/starter-hugo-academic.git
